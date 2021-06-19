@@ -10,7 +10,7 @@
   border-radius: 2%;
 }
 
-.caixinhaindex li{
+.caixinhaindex {
   display: inline-block;
   margin: auto;
   align-items: center;
@@ -21,4 +21,35 @@
 
 #fotografia {
   border-radius: 0px 0px 0px 50px;
+}
+
+div {
+  /* border: darkred solid;  */
+}
+
+.listas {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.listafilha {
+  display: inline-block;
+  margin: 20px;
+}
+
+#habs {
+  text-align: left;
+}
+
+.listafilha li {
+  text-align: left;
+}
+
+.caixinhaindexfilha {
+  display: inline-block;
+}
+
+.caixinhaindexneta {
+  display: inline-block;
 }
