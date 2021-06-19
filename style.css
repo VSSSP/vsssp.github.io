@@ -6,12 +6,11 @@
   text-align: center;
   border: rgb(5, 0, 0) solid 5px;
   position: relative;
-  left: 25%;
+  left: 2%;
   border-radius: 2%;
 }
 
 .caixinhaindex {
-  display: inline-block;
   margin: auto;
   align-items: center;
   padding: 30px;
@@ -28,8 +27,13 @@ div {
 }
 
 .listas {
-  margin-left: auto;
+  margin-left: 50px;
   margin-right: auto;
+  position: absolute;
+  max-width: 35%;
+  left: 600px;
+  top: 100px;
+
 
 }
 
@@ -52,4 +56,10 @@ div {
 
 .caixinhaindexneta {
   display: inline-block;
+}
+
+.caixinhaindex li:hover {
+  background-color: rgb(209, 194, 194);
+  color: rgb(255, 0, 0);
+  border-radius: 10%;
 }
