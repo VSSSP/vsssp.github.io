@@ -1,0 +1,65 @@
+.titulo {
+  color: rgb(0, 0, 0);
+  background-color: rgb(151, 172, 172);
+  padding: 20px;
+  max-width: 40%;
+  text-align: center;
+  border: rgb(5, 0, 0) solid 5px;
+  position: relative;
+  left: 2%;
+  border-radius: 2%;
+}
+
+.caixinhaindex {
+  margin: auto;
+  align-items: center;
+  padding: 30px;
+  /* background-color: darkred; */
+
+}
+
+#fotografia {
+  border-radius: 0px 0px 0px 50px;
+}
+
+div {
+  /* border: darkred solid;  */
+}
+
+.listas {
+  margin-left: 50px;
+  margin-right: auto;
+  position: absolute;
+  max-width: 35%;
+  left: 600px;
+  top: 100px;
+
+
+}
+
+.listafilha {
+  display: inline-block;
+  margin: 20px;
+}
+
+#habs {
+  text-align: left;
+}
+
+.listafilha li {
+  text-align: left;
+}
+
+.caixinhaindexfilha {
+  display: inline-block;
+}
+
+.caixinhaindexneta {
+  display: inline-block;
+}
+
+.caixinhaindex li:hover {
+  background-color: rgb(209, 194, 194);
+  color: rgb(255, 0, 0);
+  border-radius: 10%;
+}

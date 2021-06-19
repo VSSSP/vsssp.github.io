@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Web na Trybe VSSSP</title>
-  <style>
-    h1 {
-      color: blue;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      }
-    #quem {
-        font-family: cursive, 'Times New Roman', Times, serif;
-      }
-    body {
-      background-color: cornflowerblue;
-    }
-    .uno {
-      font-size: 50px;
-    }
-    .dos {
-      font-size: 40px;
-    }
-    .tes {
-      font-size: 30px;
-    }
-    .cuatu {
-      font-size: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Victor Samuel Santos Silva de Paula</h1>
-  <h2>Index</h2>
-  <ol>
-    <li><a href="#fotografia">Minha foto</a></li>
-    <li><a href="#quem">Quem sou eu? </a></li>
-    <li><a href="#habs"> Minhas Habilidades</a></li>
-    <li><a href="#interna">Foto pelo link interno? <strong>TEMOS!</strong></a></li>
-    <li><a href="#Blog">Meu Site/Blog favorito</a></li>
-  </ol>
-  <img src="/20210531_225140.jpg" alt="Foto de Victor no Quarto com um bigode do zé bonitinho" width="300px" id="fotografia">
-  <p id="quem">Nascido e residindo em Belo Horizonte, Minas Gerais. Brasileiro. <br>
-  Apaixonado por Tecnologias e Esportes, mas também um entusiasta da Musica e da Astronomia.</p>
+  <div class="titulo">
+    <h1>Victor Samuel Santos Silva de Paula</h1>
+    <div class="photo">
+      <img src="/20210531_225140.jpg" alt="Foto de Victor no Quarto com um bigode do zé bonitinho" width="300px"
+        id="fotografia">
+      <div class="description">
+        <p>Nascido e residindo em Belo Horizonte, Minas Gerais. Brasileiro. <br>
+          Apaixonado por Tecnologias e Esportes, mas também um entusiasta da Musica e da Astronomia.</p>
+      </div>
+    </div>
+  </div>
   <hr><br>
-  <h3>Resumindo...:</h3>
-  <ul style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-    <li>Venda Novense</li>
-    <li>béozontino</li>
-    <li>minero</li>
-    <li>BR</li>
-    <li>Terrestre</li>
-    <li>Sistema solar</li>
-    <li>Via-Láctea</li>
-    <li>uns 13 ou 14 bilhões de anos luz do big bang</li>
-  </ul>
-  <h3 id="habs"><strong>Habilidades:</strong></h3>
-  <ul>
-    <li class="uno">Dormir demais</li>
-    <li class="dos"><Strong>Facilidade em aprender </Strong> <em> (Só o que eu gosto de aprender)</em></li>
-    <li class="tes">Comprometimento e responsabilidade</li>
-    <li class="cuatu">Arremessos de 3pts</li>
-    </ul>
-  <br><hr>
-  <a href="/20210531_225140.jpg" id="interna"> CLIQUE AQUI</a> para acessar o link interno da minha <strong>foto</strong> 
-  <br><hr><br>
-  <p><em>Um link para um blog que eu gosto? Que tal para um site que eu criei antes de saber qualquer coisa que a Trybe ensina?</em> <br> <br>
-  <a href="http://autossim.com.br" id="Blog"> Clica aqui pra você dar uma olhada!</a> Espero criar um bem melhor, com os recursos que eu for aprendendo na <strong>Trybe</strong>!</p>
+  <div class="listas">
+    <div class="listafilha">
+      <h3>"Ceé de ond?"</h3>
+      <ul
+        style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        <li>Venda Novense</li>
+        <li>béozontino</li>
+        <li>minero</li>
+        <li>BR</li>
+        <li>Terrestre</li>
+        <li>Sistema solar</li>
+        <li>Via-Láctea</li>
+        <li>uns 13 ou 14 bilhões de anos luz do big bang</li>
+      </ul>
+    </div>
+    <div class="listafilha">
+      <h3 id="habs"><strong>Habilidades:</strong></h3>
+      <ul>
+        <li>Dormir demais</li>
+        <li><Strong>Facilidade em aprender </Strong> <em> (Só o que eu gosto de aprender)</em></li>
+        <li>Comprometimento e responsabilidade</li>
+        <li>Arremessos de 3pts</li>
+      </ul>
+    </div>
+  </div>
+  <br>
   <hr>
+  <a href="/20210531_225140.jpg" id="interna"> CLIQUE AQUI</a> para acessar o link interno da minha
+  <strong>foto</strong>
+  <br>
+  <hr><br>
+  <p><em>Um link para um blog que eu gosto? Que tal para um site que eu criei antes de saber qualquer coisa que a Trybe
+      ensina?</em> <br> <br>
+    <a href="http://autossim.com.br" target="_blank" id="Blog"> Clica aqui pra você dar uma olhada!</a> Espero criar um
+    bem melhor, com os recursos que eu for aprendendo na <strong>Trybe</strong>!</p>
+  <hr>
+  <div class="caixinhaindex">
+    <h2>Index</h2>
+    <div class="caixinhaindexfilha"><ol>
+      <div class="caixinhaindexneta">
+        <li><a href="#fotografia">Minha foto</a></li>
+        <li><a href="#quem">Quem sou eu? </a></li>
+        <li><a href="#habs"> Minhas Habilidades</a></li>
+        <li><a href="#Blog">Meu Site/Blog favorito</a></li>
+      </div>
+    </ol>
+    </div>
+  </div>
 </body>
+
 </html>
