@@ -1,36 +1,10 @@
-h1 {
-  color: blue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.titulo {
+  color: darkblue;
+  background-color: rgb(4, 255, 255);
+  padding: 20px;
+  max-width: 40%;
   text-align: center;
-  }
-#quem {
-  font-family: cursive, 'Times New Roman', Times, serif;
-  }
-body {
-  background-color: cornsilk;
-}
-.uno {
-  font-size: 50px;
-}
-.dos {
-  font-size: 40px;
-}
-.tes {
-  font-size: 30px;
-}
-.cuatu {
-  font-size: 20px;
-}
-
-.description {
-  max-width: 250px;
-  left: 00px;
-}
-
-.photo {
-
-}
-
-.lista-resumida {
-  padding: 50px;
+  border: rgb(5, 0, 0) solid 10px;
+  position: relative;
+  left: 25%;
 }
