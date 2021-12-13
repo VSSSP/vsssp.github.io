@@ -10,16 +10,16 @@ export default function Header() {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link href="#features">Home</Nav.Link>
-      <Nav.Link href="#pricing">Projetos</Nav.Link>
+      <Nav.Link href="#projects">Projetos</Nav.Link>
 			<Nav.Link href="#nothing">Sobre mim</Nav.Link>
     </Nav>
     <Nav>
 		<NavDropdown title="Contato" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">
-					<a href="https://github.com/VSSSP">GitHub</a>
+				<a href="https://github.com/VSSSP" className="link">GitHub</a>
 				</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">
-				<a href="https://www.linkedin.com/in/victorssspaula/">LinkedIn</a>	
+				<a href="https://www.linkedin.com/in/victorssspaula/" className="link">LinkedIn</a>	
 				</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">E-mail</NavDropdown.Item>
