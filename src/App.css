@@ -85,6 +85,32 @@
   height: 50px;
 }
 
+.carousel {
+  padding: 25px;
+  padding-bottom: 0;
+}
+
+.carouselCaption {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.footer {
+  background-image: url(https://www.ecoplusitalia.com/wp-content/uploads/2016/04/6839531-grey-wallpaper.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.footer spam {
+  margin: 5px
+}
+
 @media screen and (max-width: 918px) {
   .home {
     flex-direction: column;
