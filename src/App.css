@@ -1,0 +1,103 @@
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://cdn.wallpapersafari.com/40/92/HvIEnr.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.name {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  color: whitesmoke;
+}
+
+.description {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.foto {
+  margin: 50px;
+  border-radius: 5%;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-size: 50px;
+  color: white;
+}
+
+.aboutMe {
+  background-image: url(https://ik.imagekit.io/houseofcoders/wp-content/uploads/2017/10/portfolio-background.png);
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: white;
+  margin: 0;
+}
+
+#projects {
+  background-color: rgb(41, 40, 40);
+}
+
+.card {
+  margin: 10px;
+}
+
+.tools {
+  margin-top: 15px;
+}
+
+.tools img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.cardIcon {
+  height: 50px;
+}
+
+@media screen and (max-width: 918px) {
+  .home {
+    flex-direction: column;
+  }
+  .name {
+    font-size: 50px;
+    color: black;
+  }
+  .description {
+    font-size: 30px;
+    color: black;
+  }
+  .foto {
+    margin-top: 0;
+  }
+}
