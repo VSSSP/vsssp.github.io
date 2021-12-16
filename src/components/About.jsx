@@ -20,7 +20,7 @@ export default function About() {
 				<img src="https://icongr.am/devicon/docker-plain-wordmark.svg?size=50&color=d2d6dd" alt=""/>
 				<img src="https://icongr.am/devicon/mysql-plain-wordmark.svg?size=50&color=d2d6dd" alt=""/>
 			</div>
-			<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_89gkjupo.json" background="transparent" speed="0.5" loop style={{height: "300px", width: "300px"}}autoplay></lottie-player>
+			{/* <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_89gkjupo.json" background="transparent" speed="0.5" loop style={{height: "300px", width: "300px"}}autoplay></lottie-player> */}
     </div>
   )
 }
