@@ -6,10 +6,10 @@ export default function Projects() {
   return (
 		<div id="projects">
       <br />
-			<h1>Projetos</h1>
+			<h1 className="title">Projetos</h1>
 			<br />
 			<CardGroup>
-			<Card>
+			<Card className="card">
 				<Card.Img variant="top" src={ trivia } />
 				<Card.Body>
 					<Card.Title>Jogo de Trivia</Card.Title>
@@ -18,7 +18,7 @@ export default function Projects() {
 					</Card.Text>
 				</Card.Body>
 			</Card>
-			<Card>
+			<Card className="card">
 				<Card.Img variant="top" src="holder.js/100px160" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
@@ -28,7 +28,7 @@ export default function Projects() {
 					</Card.Text>
 				</Card.Body>
 			</Card>
-			<Card>
+			<Card className="card">
 				<Card.Img variant="top" src="holder.js/100px160" />
 				<Card.Body>
 					<Card.Title>Card title</Card.Title>
