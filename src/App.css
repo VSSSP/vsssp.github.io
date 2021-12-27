@@ -3,6 +3,10 @@
   color: #000;
 }
 
+.link:hover {
+  text-decoration: underline;
+}
+
 .home {
   display: flex;
   flex-direction: row;
@@ -47,6 +51,8 @@
 
 .aboutMe {
   background-image: url(https://ik.imagekit.io/houseofcoders/wp-content/uploads/2017/10/portfolio-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 15px;
   text-align: center;
   display: flex;
@@ -66,10 +72,11 @@
 
 #projects {
   background-color: rgb(41, 40, 40);
+  padding: 30px;
 }
 
 .card {
-  margin: 10px;
+  margin: 30px;
 }
 
 .tools {
@@ -93,10 +100,11 @@
 .carouselCaption {
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
+  margin-top: 30px;
 }
 
 .footer {
-  background-image: url(https://www.ecoplusitalia.com/wp-content/uploads/2016/04/6839531-grey-wallpaper.jpg);
+  background-color: rgb(106, 105, 114);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,19 +119,28 @@
   margin: 5px
 }
 
+.gif {
+  margin-top: -70px;
+}
+
+.card {
+  border-radius: 5%;
+}
+
 @media screen and (max-width: 918px) {
   .home {
     flex-direction: column;
   }
   .name {
     font-size: 50px;
-    color: black;
   }
   .description {
     font-size: 30px;
-    color: black;
   }
   .foto {
     margin-top: 0;
+  }
+  .tool {
+    margin: 6px;
   }
 }
