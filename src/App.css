@@ -177,4 +177,7 @@
   .Projects {
     flex-direction: column;
   }
+  .about {
+    text-align: justify;
+  }
 }
