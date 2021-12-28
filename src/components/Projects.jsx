@@ -3,7 +3,6 @@ import trivia from '../images/trivia/trivia.png';
 import tunes from '../images/trybetunes/trybetunes.png';
 import starwars from '../images/starwars/starwarsplanets.png';
 import recipesFoods from '../images/recipes-app/foods.png';
-import loginWallet from '../images/trybewallet/login.png'
 import wallet from '../images/trybewallet/wallet.png'
 
 export default function Projects() {
