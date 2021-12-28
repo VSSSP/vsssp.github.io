@@ -146,6 +146,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(./images/general/vscode.jpg);
+  background-size: cover;
 }
 
 .Projects {
@@ -153,6 +155,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+.project-title {
+  -webkit-text-stroke-width: 1.5px;
 }
 
 
@@ -176,6 +182,9 @@
   }
   .Projects {
     flex-direction: column;
+  }
+  #projects {
+    background-image: url(./images/general/vscodecel.jpg);
   }
   .about {
     text-align: justify;

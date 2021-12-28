@@ -10,7 +10,7 @@ export default function Projects() {
   return (
 		<div id="projects">
       <br />
-			<h1 className="title">Projetos</h1>
+			<h1 className="title project-title">Projetos</h1>
 			<br />
 
 			<div className="Projects">
