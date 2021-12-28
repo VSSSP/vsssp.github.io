@@ -125,7 +125,37 @@
 
 .card {
   border-radius: 5%;
+  padding: 5px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
+
+.card-img-top {
+  max-height: 200px;
+}
+
+.Projects-images {
+  max-width: 500px;
+}
+
+.trivia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
 
 @media screen and (max-width: 918px) {
   .home {
