@@ -10,7 +10,7 @@ export default function Home() {
 				Victor de Paula
 			</p>
 			<p className="description">
-				Desenvolvedor Front-end
+				Web Developer
 			</p>
 			</div>
 		</div>

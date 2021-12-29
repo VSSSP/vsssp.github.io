@@ -30,7 +30,7 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
   font-family: 'Oswald', sans-serif;
-  font-size: 45px;
+  font-size: 50px;
   text-align: center;
   color: whitesmoke;
 }
@@ -164,15 +164,15 @@
 
 
 
-@media screen and (max-width: 918px) {
+@media screen and (max-width: 1618px) {
   .home {
     flex-direction: column;
   }
   .name {
-    font-size: 50px;
+    font-size: 60px;
   }
   .description {
-    font-size: 30px;
+    font-size: 45px;
   }
   .foto {
     margin-top: 0;
