@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.84b11433.chunk.css",
-    "main.js": "/static/js/main.ba939375.chunk.js",
-    "main.js.map": "/static/js/main.ba939375.chunk.js.map",
+    "main.css": "/static/css/main.6f9d40cd.chunk.css",
+    "main.js": "/static/js/main.5876b925.chunk.js",
+    "main.js.map": "/static/js/main.5876b925.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7378a9fb.js",
     "runtime-main.js.map": "/static/js/runtime-main.7378a9fb.js.map",
     "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
@@ -12,21 +12,16 @@
     "static/js/3.acb93ccb.chunk.js.map": "/static/js/3.acb93ccb.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.84b11433.chunk.css.map": "/static/css/main.84b11433.chunk.css.map",
+    "static/css/main.6f9d40cd.chunk.css.map": "/static/css/main.6f9d40cd.chunk.css.map",
     "static/js/2.b50c2707.chunk.js.LICENSE.txt": "/static/js/2.b50c2707.chunk.js.LICENSE.txt",
     "static/media/about.af0bcf26.jpg": "/static/media/about.af0bcf26.jpg",
-    "static/media/foods.00873a75.png": "/static/media/foods.00873a75.png",
-    "static/media/starwarsplanets.cfb1d0e3.png": "/static/media/starwarsplanets.cfb1d0e3.png",
-    "static/media/trivia.09bcbd77.png": "/static/media/trivia.09bcbd77.png",
-    "static/media/trybetunes.a026bdaf.png": "/static/media/trybetunes.a026bdaf.png",
-    "static/media/App.css": "/static/media/vscodecel.b3ff47cc.jpg",
-    "static/media/wallet.7137af11.png": "/static/media/wallet.7137af11.png"
+    "static/media/App.css": "/static/media/vscodecel.b3ff47cc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7378a9fb.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.b50c2707.chunk.js",
-    "static/css/main.84b11433.chunk.css",
-    "static/js/main.ba939375.chunk.js"
+    "static/css/main.6f9d40cd.chunk.css",
+    "static/js/main.5876b925.chunk.js"
   ]
 }
