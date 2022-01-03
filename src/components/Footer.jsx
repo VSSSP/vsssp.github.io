@@ -7,7 +7,7 @@ export default function Footer() {
 				<a href="http://github.com/VSSSP">
 				<img src="https://icongr.am/devicon/github-original.svg?size=60&color=d2d6dd" alt="gitHub"/>
 				</a>
-				<a href="http://linkedin.com/victorssspaula">
+				<a href="https://www.linkedin.com/in/victorssspaula/">
 				<img src="https://icongr.am/devicon/linkedin-plain.svg?size=60&color=d2d6dd" alt="Linkedin"/>
 				</a>
 			</div>

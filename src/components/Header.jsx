@@ -16,10 +16,10 @@ export default function Header() {
         <Nav>
         <NavDropdown title="Contato" id="collasible-nav-dropdown">
             <NavDropdown.Item>
-            <a href="https://github.com/VSSSP" className="link">GitHub</a>
+            <a href="https://github.com/VSSSP" target="_blank" className="link">GitHub</a>
             </NavDropdown.Item>
             <NavDropdown.Item>
-            <a href="https://www.linkedin.com/in/victorssspaula/" className="link">LinkedIn</a>	
+            <a href="https://www.linkedin.com/in/victorssspaula/" target="_blank" className="link">LinkedIn</a>	
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item>E-mail: victorssspaula@live.com</NavDropdown.Item>
