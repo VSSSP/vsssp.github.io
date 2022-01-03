@@ -24,6 +24,7 @@
   font-family: 'Oswald', sans-serif;
   font-size: 100px;
   color: whitesmoke;
+  text-shadow: 10px 5px 5px rgb(65, 60, 60);
 }
 
 .description {
@@ -33,6 +34,7 @@
   font-size: 50px;
   text-align: center;
   color: whitesmoke;
+  text-shadow: 10px 5px 5px rgb(65, 60, 60);
 }
 
 .foto {
@@ -47,6 +49,7 @@
   -webkit-text-stroke-color: #000;
   font-size: 50px;
   color: white;
+  text-shadow: 10px 5px 5px rgb(65, 60, 60);
 }
 
 .aboutMe {
@@ -170,9 +173,12 @@
   }
   .name {
     font-size: 60px;
+    text-shadow: 10px 5px 5px rgb(0, 0, 0);
   }
   .description {
     font-size: 45px;
+    text-shadow: 10px 5px 5px rgb(0, 0, 0);
+
   }
   .foto {
     margin-top: 0;
